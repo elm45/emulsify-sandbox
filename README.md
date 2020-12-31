@@ -1,23 +1,15 @@
-# My Project
+# Emulsify/Storybook Sandbox
 
-A brief description of My Project.
+_This is just a sandbox for experimenting with Emulsify and Sandbox._
 
-## Using This Template
+## Notes to self:
+* remember bem filter doesn't pass validation so use --no-validation flag until resolved
+* Don't forget to import config when spinning up
+* Don't forget to run npm commands outside of vagrant for storybook build for now
+* Added a teaser component
+* See teaser component at http://local.emulsify-sandbox.com/news for drupal 
+* See teaser component at http://localhost:6006/?path=/story/organisms-teaser-list--teaser-list-example for storybook
 
-Remove this section after initial setup!
-
-Search for and replace the following placeholders within this file:
-
-| Placeholder | Example |
-| --- | --- |
-| `#ACQUIA_CLOUD_URL` | https://cloud.acquia.com/app/develop/applications/12345678-1234-1234-12345678901234567 |
-| `#GIT_PRIMARY_DEV_BRANCH` | `master` or `develop` |
-| `#GITHUB_ORG` | The "org" in https://github.com/org/project |
-| `#GITHUB_PROJECT` | The "project" in https://github.com/org/project |
-| `#JIRA_URL` | https://org.atlassian.net/projects/PROJ |
-| `#LOCAL_DEV_SITE_ALIAS` | `@example.local` |
-| `#LOCAL_DEV_URL` | http://local.example.com/ |
-| `#TRAVIS_URL` | https://travis-ci.com/org/PROJ |
 
 # Getting Started
 
