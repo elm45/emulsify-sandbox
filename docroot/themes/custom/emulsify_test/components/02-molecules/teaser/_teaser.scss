@@ -1,0 +1,14 @@
+.teaser {
+  border-bottom: 1px solid;
+  margin-bottom: $space;
+}
+
+.teaser__heading {
+  @include heading-medium($margin: 0);
+}
+
+.teaser__link {
+  color: clr(primary);
+  font-family: $font-heading;
+  font-weight: normal;
+}

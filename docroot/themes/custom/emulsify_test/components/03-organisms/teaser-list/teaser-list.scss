@@ -1,0 +1,9 @@
+.teaser-list {
+  background-color: clr(background-section);
+  padding: $space;
+  margin: $space-triple 0;
+
+  &__heading {
+    @include heading-xl;
+  }
+}

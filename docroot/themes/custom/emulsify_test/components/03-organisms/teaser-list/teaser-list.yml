@@ -1,0 +1,11 @@
+teaser_list_heading: "Here is a List of Teasers"
+teasers: 
+  - teaser_link: '#'
+    teaser_heading: "Heading 1"
+    teaser_text: "Pellentesque libero tortor, tincidunt et, tincidunt eget, semper nec, quam. Quisque rutrum. Suspendisse feugiat. Cras ultricies mi eu turpis hendrerit fringilla."
+  - teaser_link: '#'
+    teaser_heading: "Heading 2"
+    teaser_text: "Donec elit libero, sodales nec, volutpat a, suscipit non, turpis. Curabitur at lacus ac velit ornare lobortis. Pellentesque commodo eros a enim."
+  - teaser_link: '#'
+    teaser_heading: "Heading 3"
+    teaser_text: "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Donec vitae orci sed dolor rutrum auctor. Praesent turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id purus."

@@ -1,0 +1,21 @@
+{% set teaser_base_class = 'teaser' %}
+
+<article {{ bem(teaser_base_class) }}>
+  {% include "@atoms/text/headings/_heading.twig" with {
+    heading_base_class: 'heading',
+    heading_blockname: teaser_base_class,
+    heading_level: 3,
+    heading: teaser_heading,
+    heading_url: teaser_link,
+    heading_link_blockname: teaser_base_class,
+  } %}
+  <div {{ bem('text', [], teaser_base_class) }}
+    {% block teaser_content %}
+      {% include "@atoms/text/text/01-paragraph.twig" with {
+        paragraph_base_class: 'text',
+        pargraph_blockname: teaser_base_class,
+        paragraph_content: teaser_text,
+      } %}
+    {% endblock %}
+  </div>
+</article>
