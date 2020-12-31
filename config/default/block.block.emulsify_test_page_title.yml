@@ -1,0 +1,20 @@
+uuid: 36790bd3-cb61-44cc-a808-d4596eb43477
+langcode: en
+status: true
+dependencies:
+  theme:
+    - emulsify_test
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: emulsify_test_page_title
+theme: emulsify_test
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }
